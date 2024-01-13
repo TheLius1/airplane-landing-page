@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(airplane.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/**=========================NAVBARS==============================**/
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 20%;
+}
+.logo h2{
+    color: rgb(106, 106, 246);
+    margin: auto 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav a{
+    margin-left: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.icons a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background:rgb(106, 106, 246) ;
+    padding: .5rem;
+    border-radius: 5%;
+    transition: all 0.3s;
+}
+.icons a:nth-child(2){
+    margin-right: 1rem;
+    margin-left: .5rem;
+}
+.icons a:hover{
+    background-color: white;
+    color: rgb(106, 106, 246);
+}
+/**===========================MAIN CONTENT================================**/
+.vertical-text{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.vertical-text p{
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    margin-bottom: 5rem;
+}
+.main-content{
+    margin: 4rem 6rem;
+}
+.main-content #p1{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.main-content h1{
+    font-size: 4.5rem;
+}
+#p2{
+    margin-top: 1rem;
+}
+button{
+    padding: 8px;
+    color: white;
+    background: rgb(106, 106, 246);
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    color: rgb(106, 106, 246);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 23vh;
+    background-color: rgb(106, 106, 246);
+}
+.container{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 5rem;
+    font-size: .9rem;
+}
+.container i{
+    margin-bottom: 1rem;
+}
